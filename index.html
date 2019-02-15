@@ -33,8 +33,11 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 	<script>
-		$('p:even').addClass("animated fadeInLeft")
-		$('p:odd').addClass("animated fadeInRight")
+		$(document).ready(function() {
+			$('p:even').addClass("animated fadeInLeft")
+			$('p:odd').addClass("animated fadeInRight")
+		})
+
 	</script>
 </body>
 </html>
