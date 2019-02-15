@@ -6,14 +6,14 @@
 	font-family: 'Crimson Text', serif;
 }
 html{
-	height: 110vh; 
-	width: 110vw;
+	height: 105vh; 
+	width: 105vw;
 	overflow: hidden
 }
 
 body{
-	height: 110vh; 
-	width: 110vw;
+	height: 105vh; 
+	width: 105vw;
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('bg4.jpg');
 	background-size: cover;
