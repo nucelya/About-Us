@@ -70,14 +70,14 @@ span{
 }
 .content{
 	position: relative;
-	top: 50px;
+	top: 40px;
 }
 
 p{
 	text-align: center;
 	color: #fff;
 	font-family: 'Crimson Text', serif;
-	font-size: 95%;
+	font-size: 90%;
 	word-spacing: 4px;
 	letter-spacing: 1px;
 	margin-bottom: 12px;
@@ -172,6 +172,18 @@ p{
 		height: 300px;
 	}
 } */
+@media only screen and (max-height: 700px){
+	.about-header{
+		margin-top: 20px;
+	}
+	
+	p{
+		line-height:1;
+	}
+	body{
+		width:125vw;
+	}
+}
 @media only screen and (max-height: 600px){
 	.about-header{
 		margin-top: 20px;
