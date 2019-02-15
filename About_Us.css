@@ -116,10 +116,6 @@ p{
 @media only screen and (max-width: 600px){
 	h1{font-size: 160%;}
 	p{font-size: 70%;}
-	/* .logo{
-		width: 8%;
-		height: 8%;
-	} */
 	.content{
 		position: relative;
 		top: 0px;
@@ -134,56 +130,16 @@ p{
 	p{font-size: 70%;
 	line-height: 1
 }
-	/* .logo{
-		width: 10%;
-		height: 10%;
-		margin-top: 20px;
-	} */
 	.main-content-header{
-		width: 325px;
+		width: 350px;
 		margin-left: 25px;
+	}
+	body{
+		height:120vh;
 	}
 }
 
-/* @media only screen and (max-height: 700px){
-	h1{font-size: 100%;}
-	p{font-size: 60%;
-	line-height:1
-	}
-	
-	.main-content-header{
-		width: 300px;
-		height: 300px;
-	}
-}*/
-/* @media only screen and (max-height: 600px){
-	h1{font-size: 100%;}
-	p{font-size: 60%;
-	line-height:1
-	}
-	.container{
-		width: 90vw;
-		position: absolute;
-		left: 50%;
-		translate: transformX(-50%);
-	}
-	.main-content-header{
-		width: 300px;
-		height: 300px;
-	}
-} */
-@media only screen and (max-height: 700px){
-	.about-header{
-		margin-top: 20px;
-	}
-	
-	p{
-		line-height:1;
-	}
-	body{
-		width:125vw;
-	}
-}
+
 @media only screen and (max-height: 600px){
 	.about-header{
 		margin-top: 20px;
