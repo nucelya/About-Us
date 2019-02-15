@@ -2,11 +2,19 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	color: black;
+	color: white;
 	font-family: 'Crimson Text', serif;
+}
+html{
+	height: 100%; 
+	width: 100%;
+	overflow: hidden
 }
 
 body{
+	height: 100%; 
+	width: 100%;
+	overflow: hidden;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('bg4.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -158,7 +166,7 @@ p{
 	}
 	.content{
 		width: 90vw;
-		margin-left: 0px;
+		margin-left: -10px;
 	}
 	/* .logo{
 		width: 6%;
