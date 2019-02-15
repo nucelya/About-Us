@@ -164,7 +164,9 @@ p{
 	}
 	.container{
 		width: 90vw;
-		margin-left: 0px;
+		position: relative;
+		left: 50%;
+		translate: transformX(-50%);
 	}
 	/* .logo{
 		width: 6%;
