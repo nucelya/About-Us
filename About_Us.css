@@ -5,12 +5,14 @@
 	color: white;
 	font-family: 'Crimson Text', serif;
  }
-/* html{
+html{
 	height: 120vh; 
-}  */
+	overflow:hidden;
+}  
 
 body{
-	height: 110vh; 
+	height: 120vh; 
+	overflow:hidden;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('bg4.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -39,6 +41,7 @@ body{
 }
 .about-header h1{
 	font-size: 50px;
+	line-height:1;
 }
 
 /*h1{
