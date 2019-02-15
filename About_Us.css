@@ -153,12 +153,12 @@ p{
 }
 @media only screen and (max-height: 600px){
 	h1{font-size: 100%;}
-	p{font-size: 63%;
+	p{font-size: 60%;
 	line-height:1
 	}
 	.content{
 		width: 90vw;
-		margin-left: -40px;
+		margin-left: 0px;
 	}
 	/* .logo{
 		width: 6%;
