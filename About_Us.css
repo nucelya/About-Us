@@ -176,11 +176,8 @@ p{
 	}
 } */
 @media only screen and (max-height: 600px){
-	.container{
-		width: 90vw;
-		position: absolute;
-		left: 50%;
-		translate: transformX(-50%);
+	.about-header{
+		margin-top:20px;
 	}
 	p{
 		line-height:1.2;
