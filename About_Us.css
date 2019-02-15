@@ -13,9 +13,9 @@ html{
 
 body{
 	height: 120vh; 
-	width: 110vw;
+	width: 130vw;
 	overflow: hidden;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('bg4.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('bg4.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -159,7 +159,7 @@ p{
 		height: 300px;
 	}
 }*/
-@media only screen and (max-height: 600px){
+/* @media only screen and (max-height: 600px){
 	h1{font-size: 100%;}
 	p{font-size: 60%;
 	line-height:1
@@ -174,7 +174,19 @@ p{
 		width: 300px;
 		height: 300px;
 	}
+} */
+@media only screen and (max-height: 600px){
+	.container{
+		width: 90vw;
+		position: absolute;
+		left: 50%;
+		translate: transformX(-50%);
+	}
+	p{
+		line-height:1.2;
+	}
 }
+		
 
 /* ==================animation================== */
 .fadeInLeft{
