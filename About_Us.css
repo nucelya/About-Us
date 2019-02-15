@@ -13,7 +13,7 @@ html{
 
 body{
 	height: 110vh; 
-	width: 100vw;
+	width: 110vw;
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('bg4.jpg');
 	background-size: cover;
@@ -158,7 +158,7 @@ p{
 		width: 300px;
 		height: 300px;
 	}
-}
+}*/
 @media only screen and (max-height: 600px){
 	h1{font-size: 100%;}
 	p{font-size: 60%;
@@ -166,7 +166,7 @@ p{
 	}
 	.container{
 		width: 90vw;
-		position: relative;
+		position: absolute;
 		left: 50%;
 		translate: transformX(-50%);
 	}
@@ -175,7 +175,7 @@ p{
 		height: 300px;
 	}
 }
- */
+
 /* ==================animation================== */
 .fadeInLeft{
 	animation-name: aleft;
