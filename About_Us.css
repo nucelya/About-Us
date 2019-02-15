@@ -6,8 +6,8 @@
 	font-family: 'Crimson Text', serif;
 }
 html{
-	height: 100%; 
-	width: 100%;
+	height: 110vh; 
+	width: 110vw;
 	overflow: hidden
 }
 
