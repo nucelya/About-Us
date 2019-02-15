@@ -10,7 +10,7 @@
 }  */
 
 body{
-	height: 150vh; 
+	height: 120vh; 
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('bg4.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -140,7 +140,7 @@ p{
 		margin-top: 20px;
 	} */
 	.main-content-header{
-		width: 350px;
+		width: 325px;
 		margin-left: 25px;
 	}
 }
