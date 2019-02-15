@@ -7,13 +7,11 @@
 }
 html{
 	height: 120vh; 
-	width: 100vw;
 	overflow: hidden
 }
 
 body{
 	height: 120vh; 
-	width: 130vw;
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('bg4.jpg');
 	background-size: cover;
@@ -177,7 +175,7 @@ p{
 } */
 @media only screen and (max-height: 600px){
 	.about-header{
-		margin-top:20px;
+		margin-top:-20px;
 	}
 	p{
 		line-height:1.2;
