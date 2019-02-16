@@ -134,12 +134,11 @@ p{
 	line-height: 1
 }
 	.main-content-header{
-		width: 350px;
-		margin-left: 25px;
+		width: 400px;
 	}
-	body{
+/* 	body{
 		height:120vh;
-	}
+	} */
 }
 
 
