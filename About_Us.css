@@ -21,15 +21,6 @@ body{
 	overflow-x: hidden;
 }
 
-/* .logo{
-	width: 10%;
-	height: 10%;
-	margin-top: 50px;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-} */
 
 .about-header{
 	margin-top: 70px;
@@ -159,10 +150,10 @@ p{
 /* 	body{
 		height: 150%;
 	} */
-/* 	.about-header{
+	.about-header{
 		margin-top: 20px;
 	}
-} */
+}
 }	
 
 /* ==================animation================== */
