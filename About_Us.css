@@ -141,7 +141,7 @@ p{
 	}
 }
 
-@media only screen and (max-height: 600px){
+@media only screen and (max-height: 700px){
 	h1{font-size: 140%;}
 	p{
 	font-size: 65%;
