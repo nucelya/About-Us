@@ -6,12 +6,12 @@
 	font-family: 'Crimson Text', serif;
  }
 html{
-	height: 120vh; 
+	height: 150vh; 
 	overflow:hidden;
 }  
 
 body{
-	height: 120vh; 
+	height: 150vh; 
 	overflow:hidden;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('bg4.jpg');
 	background-size: cover;
@@ -34,7 +34,7 @@ body{
 .about-header{
 	margin-top: 70px;
 	display: grid;
-	grid-template-columns: 175px,repeat(3,200px);
+	grid-template-columns: 175px,repeat(2,150px);
 	grid-template-rows: repeat(1,80px);
 	grid-template-areas: 
 	". one two .";
@@ -140,19 +140,26 @@ p{
 		height:120vh;
 	} */
 }
-
+@media only screen and (max-width: 400px){
+	h1{font-size: 140%;}
+	p{font-size: 65%;
+	line-height: 1
+}
+	.main-content-header{
+		width: 350px;
+	}
+}
 
 @media only screen and (max-height: 600px){
+	h1{font-size: 140%;}
+	p{
+	font-size: 65%;
+	line-height: 1
+	}
+/* 	}
 	.about-header{
 		margin-top: 20px;
-	}
-	
-	p{
-		line-height:1;
-	}
-	body{
-		width:125vw;
-	}
+	} */
 }
 		
 
