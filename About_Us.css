@@ -18,7 +18,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	font-size: 20px;
-	overflow-x: hidden;
+/* 	overflow-x: hidden; */
 }
 
 /* .logo{
@@ -156,10 +156,10 @@ p{
 	font-size: 65%;
 	line-height: 1
 	}
-/* 	}
+	
 	.about-header{
 		margin-top: 20px;
-	} */
+	}
 }
 		
 
