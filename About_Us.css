@@ -155,8 +155,14 @@ p{
 	}
 	.content{
 		position: relative;
-		top: 0px;
+		top: -5px;
 	}
+	p{
+	word-spacing: 2px;
+	letter-spacing: 0px;
+	margin: 15px  0;
+}
+
 
 }	
 
