@@ -21,35 +21,37 @@ body{
 	overflow-x: hidden;
 }
 
+.close{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
 
 .about-header{
-	margin-top: 70px;
-	display: grid;
-	grid-template-columns: 175px,repeat(2,150px);
-	grid-template-rows: repeat(1,80px);
-	grid-template-areas: 
-	". one two .";
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 70px;
+	left: 50%;
+	transform: translate(-50%,0);
+
 }
+.logo{
+	background-image: url(logo.svg);
+	background-position: right;
+	background-size: contain;
+	height: 60px;
+	width: 60px;
+	background-repeat: no-repeat;
+	text-align: right
+	
+	}
 .about-header h1{
-	font-size: 50px;
+	font-size: 60px;
 	line-height:1;
 }
-
-/*h1{
-	width: 100%;
-	color: #9a7505;
-	font-size: 300%;
-	word-spacing: 5px;
-	letter-spacing: 2px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-align: center;
-	margin: 50px;
-}*/
-
-
 
 .main-content-header{
 	width: 800px;
@@ -64,7 +66,7 @@ span{
 }
 .content{
 	position: relative;
-	top: 40px;
+	top: 140px;
 }
 
 p{
@@ -84,23 +86,19 @@ p{
 @media only screen and (max-width: 1000px){
 	h1{font-size: 200%;}
 	p{font-size: 80%;}
-	.content{
+	/* .content{
 		position: relative;
 		top:50px;
 		line-height: 1.5;
-}  
+}   */
 }
 
-@media only screen and (max-width: 800px){
-	h1{font-size: 180%;}
+@media only screen and (max-width: 900px){
+	/* h1{font-size: 180%;} */
 	p{font-size: 75%;}
-	.content{
+	/* .content{
 		position: relative;
-		top: 10px;
-	}
-	/* .logo{
-		width: 8%;
-		height: 8%;
+		top: 140px;
 	} */
 	.main-content-header{
 		width: 600px;
@@ -108,20 +106,20 @@ p{
 }
 
 @media only screen and (max-width: 600px){
-	h1{font-size: 160%;}
-	p{font-size: 70%;}
-	.content{
+	/* h1{font-size: 180%;} */
+	p{font-size: 75%;}
+	/* .content{
 		position: relative;
-		top: 0px;
-	}
+		top: 340px;
+	} */
 	.main-content-header{
 		width: 500px;
 	}
 }
 
 @media only screen and (max-width: 500px){
-	h1{font-size: 140%;}
-	p{font-size: 70%;
+	/* h1{font-size: 160%;} */
+	p{font-size: 75%;
 	line-height: 1
 }
 	.main-content-header{
@@ -132,8 +130,8 @@ p{
 	} */
 }
 @media only screen and (max-width: 400px){
-	h1{font-size: 140%;}
-	p{font-size: 65%;
+	/* h1{font-size: 160%;} */
+	p{font-size: 75%;
 	line-height: 1
 }
 	.main-content-header{
@@ -144,19 +142,16 @@ p{
 @media only screen and (max-height: 700px){
 	h1{font-size: 140%;}
 	p{
-	font-size: 65%;
+	font-size: 70%;
 	line-height: 1
 	}
-/* 	body{
-		height: 150%;
-	} */
-	.about-header{
+	/* .about-header{
 		margin-top: 20px;
-	}
-	.content{
+	} */
+	/* .content{
 		position: relative;
 		top: -5px;
-	}
+	} */
 	p{
 	word-spacing: 2px;
 	letter-spacing: 0px;
