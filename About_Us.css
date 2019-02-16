@@ -131,6 +131,14 @@ p{
 	.main-content-header{
 		width: 400px;
 	}
+	.close{
+		top: 10px;
+		right: 10px;
+		height: 20px;
+		width: 20px;
+		font-size: 15px;
+		line-height: 1.2;
+	}
 /* 	body{
 		height:120vh;
 	} */
@@ -165,6 +173,7 @@ p{
 .about-header{
 	top: 40px;
 }
+	
 }	
 
 /* ==================animation================== */
