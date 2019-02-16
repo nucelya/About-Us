@@ -13,7 +13,7 @@ html{
 body{
 	height: 100vh; 
 	overflow:hidden;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('bg4.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('bg4.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -146,12 +146,15 @@ p{
 	line-height: 1
 	}
 	.content{
-		top: 80px;
+		top: 50px;
 	}
 	p{
 	word-spacing: 2px;
 	letter-spacing: 0px;
 	margin: 15px  0;
+}
+.about-header{
+	top: 40px;
 }
 }	
 
